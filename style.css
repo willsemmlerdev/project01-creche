@@ -92,7 +92,7 @@ body {
 #nomedacreche-primeiraparte .embarque {
     font-family: 'Gochi Hand', cursive;
     font-size: 30px;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     color: var(--corletralogo);
     text-shadow: 1px 1px 2px var(--sombraletralogo);
 }
@@ -101,12 +101,12 @@ body {
     letter-spacing: 0.15em;
     font-size: 18px;
     color: var(--corletralogo);
-    margin-left: -5px;
+    margin-left: 5px;
     text-shadow: 1px 1px 2px var(--sombraletralogo);
 }
 #nomedacreche-segundaparte {
     font-family: 'Gochi Hand', cursive;
-    letter-spacing: 0.8em;
+    letter-spacing: 0.5em;
     font-size: 2.5em;
     font-weight: 900;
     margin-top: -10px;
@@ -125,6 +125,7 @@ body {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 10px 30px;
+    border-radius: 5px;
 
     background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
     -moz-background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
@@ -148,6 +149,9 @@ body {
     padding: 10px 15px;
     background: transparent;
     border-radius: 10px;
+}
+#menu-de-navegacao-superior a,
+#menu-de-navegacao-superior a:hover {
     transition: all 0.5s;
 }
 #menu-de-navegacao-superior a:hover {
@@ -161,7 +165,6 @@ body {
     -moz-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
     -o-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
     -webkit-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
-    transition: all 0.5s;
 }
 /* ///// FIM DA ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO ///// */
 
@@ -184,6 +187,8 @@ body {
     width: 100%;
     opacity: 80%;
     filter: brightness(70%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #matricula-aberta {
@@ -204,14 +209,14 @@ body {
 #matricula-texto p {
     font-size: 35px;
     font-weight: 700;
-    color: var(--amarelologo)
+    color: var(--amarelologo);
 }
 #matricula-aberta button {
     height: 50px;
     padding: 0 80px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(0deg, var(--amarelologo), transparent) var(--amareloqueimadologo); /*linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));*/
+    background: linear-gradient(0deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     -moz-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -o-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -webkit-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
@@ -219,6 +224,7 @@ body {
     text-shadow: 1.5px 1.5px 2px var(--preto);
     border-radius: 100px;
     cursor: pointer;
+
     transition: all 0.5s;
 }
 
@@ -228,6 +234,7 @@ body {
     -o-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -webkit-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     color: var(--branco);
+
     transition: all 0.5s;
 }
 #Escola-infantil {
@@ -309,7 +316,7 @@ body {
 #valores h1 {
     font-size: 40px;
     color: var(--azullogo);
-    padding: 10px 0;
+    padding: 20px 0;
     letter-spacing: 0.05em;
 }
 #valores02 {
@@ -327,8 +334,13 @@ body {
     background-color: var(--azulpiscina);
     border-radius: 15px;
     width: 250px;
+    height: 220px;
     margin: 10px;
     box-shadow: 2px 3px 4px var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .caixa-valores:hover {
     cursor: pointer;
@@ -336,7 +348,7 @@ body {
 .titulo-caixa-valores {
     font-size: 20px;
     font-weight: bold;
-    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 25%;
 }
 .texto-caixa-valores {
@@ -346,31 +358,31 @@ body {
 #cuid-afet {
     background: url(imagens/affection.png) no-repeat left top;
     background-size: 50px;
-    background-position: 15px 2px;
+    background-position: 15px 6px;
     background-color: rgb(255, 105, 105);
 }
 #educ-inclus {
     background: url(imagens/Inclusive.png) no-repeat left top;
     background-size: 40px;
-    background-position: 15px 5px;
+    background-position: 15px 15px;
     background-color: rgb(255, 255, 0);
 }
 #apre-ludic {
     background: url(imagens/ludic.png) no-repeat left top;
     background-size: 40px;
-    background-position: 15px 5px;
+    background-position: 15px 20px;
     background-color: rgb(108, 108, 255);
 }
 #parc-pais {
     background: url(imagens/parents.png) no-repeat left top;
     background-size: 40px;
-    background-position: 15px 5px;
+    background-position: 15px 20px;
     background-color: rgb(56, 235, 56);
 }
 #etic-trans {
     background: url(imagens/transparency.png) no-repeat left top;
     background-size: 40px;
-    background-position: 15px 5px;
+    background-position: 15px 20px;
     background-color: rgba(128, 0, 128, 0.521);
 }
 #resp-soc-amb {
@@ -417,10 +429,10 @@ body {
     list-style: circle;
     font-size: 25px;
     padding: 10px 10px 10px 10px;
-    background: linear-gradient(25deg, var(--amareloqueimadologo), transparent) var(--amarelologo);
-    -moz-background: linear-gradient(25deg, var(--amareloqueimadologo), transparent) var(--amarelologo);
-    -o-background: linear-gradient(25deg, var(--amareloqueimadologo), transparent) var(--amarelologo);
-    -webkit-background: linear-gradient(25deg, var(--amareloqueimadologo), transparent) var(--amarelologo);
+    background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
+    -moz-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
+    -o-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
+    -webkit-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.5s;
@@ -470,7 +482,10 @@ body {
     border-radius: 100px;
     cursor: pointer;
     margin-top: 35px;
-    transition: color 0.5s;
+}
+#maps button, 
+#maps button:hover {
+    transition: all 0.5s;
 }
 #maps button:hover {
     background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
@@ -478,8 +493,6 @@ body {
     -o-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -webkit-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar); 
     color: var(--branco);
-
-    transition: color 0.5s;
 }
 /* ///// FIM DA ESTILIZAÇÃO DO MAIN ///// */
 
@@ -524,24 +537,13 @@ footer #social ion-icon {
     background: transparent;
     border-radius: 25%;
     padding: 5px;
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    transition: all 0.3s;
 }
 footer #social ion-icon:hover {
     color: white;
-    background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
-    -moz-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
-    -o-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
-    -webkit-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));;
-    border-radius: 25%;
     padding: 5px;
     cursor: pointer;
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 footer #endereco {
@@ -555,13 +557,16 @@ footer #endereco p {
 }
 
 footer #contato {
-    width: 300px;
+    width: 200px;
 }
 footer #contato p, footer #contato a {
     color: var(--preto);
     font-size: 1.2rem;
     text-align: right;
     line-height: 1.5rem;
+}
+footer #contato a:hover {
+    color: var(--branco)
 }
 
 footer #direitos {
@@ -573,5 +578,8 @@ footer #direitos {
 }
 footer #direitos span {
     display: block;
+}
+footer #direitos a:hover {
+    color: rgb(92, 92, 92);
 }
 /* ///// FIM DA ESTILIZAÇÃO DO FOOTER ///// */
