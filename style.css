@@ -189,7 +189,7 @@ body {
 #matricula-aberta {
     width: 100%;
     height: 200px;
-    background: url(/imagens/fundo-azul.jpg) no-repeat center center;
+    background: url(imagens/fundo-azul.jpg) no-repeat center center;
     background-size: 100%;
     display: flex;
     align-items: center;
@@ -277,7 +277,7 @@ body {
 #a-importancia-de-comecar-cedo {
     width: 100%;
     height: 300px;
-    background: url(/imagens/fundo-bebe.png) no-repeat center center;
+    background: url(imagens/fundo-bebe.png) no-repeat center center;
     position: relative;
 }
 #a-importancia-de-comecar-cedo div {
@@ -344,37 +344,37 @@ body {
     padding: 10px 10px 10px 10px;
 }
 #cuid-afet {
-    background: url(/imagens/affection.png) no-repeat left top;
+    background: url(imagens/affection.png) no-repeat left top;
     background-size: 50px;
     background-position: 15px 2px;
     background-color: rgb(255, 105, 105);
 }
 #educ-inclus {
-    background: url(/imagens/Inclusive.png) no-repeat left top;
+    background: url(imagens/Inclusive.png) no-repeat left top;
     background-size: 40px;
     background-position: 15px 5px;
     background-color: rgb(255, 255, 0);
 }
 #apre-ludic {
-    background: url(/imagens/ludic.png) no-repeat left top;
+    background: url(imagens/ludic.png) no-repeat left top;
     background-size: 40px;
     background-position: 15px 5px;
     background-color: rgb(108, 108, 255);
 }
 #parc-pais {
-    background: url(/imagens/parents.png) no-repeat left top;
+    background: url(imagens/parents.png) no-repeat left top;
     background-size: 40px;
     background-position: 15px 5px;
     background-color: rgb(56, 235, 56);
 }
 #etic-trans {
-    background: url(/imagens/transparency.png) no-repeat left top;
+    background: url(imagens/transparency.png) no-repeat left top;
     background-size: 40px;
     background-position: 15px 5px;
     background-color: rgba(128, 0, 128, 0.521);
 }
 #resp-soc-amb {
-    background: url(/imagens/ambiental-responsability.png) no-repeat left top;
+    background: url(imagens/ambiental-responsability.png) no-repeat left top;
     background-size: 50px;
     background-position: 15px 5px;
     background-color: rgb(255, 166, 0);
