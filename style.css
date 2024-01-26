@@ -126,11 +126,10 @@ body {
     margin: 0 auto;
     padding: 10px 30px;
     border-radius: 5px;
-
-    background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
     -moz-background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
     -o-background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
     -webkit-background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
+    background: linear-gradient(to bottom, var(--azulnavbar), var(--azulpiscina));
 }
 #menu-de-navegacao-superior ul {
     display: flex;
@@ -161,10 +160,10 @@ body {
     letter-spacing: 0.1em;
     padding: 10px 15px;
     border-radius: 10px;
-    background: linear-gradient(0deg, var(--azullogo), transparent) var(--verdepiscina);
     -moz-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
     -o-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
     -webkit-background: linear-gradient(30deg, var(--azullogo), transparent) var(--azulpiscina);
+    background: linear-gradient(0deg, var(--azullogo), transparent) var(--verdepiscina);
 }
 /* ///// FIM DA ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO ///// */
 
@@ -216,25 +215,32 @@ body {
     padding: 0 80px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(0deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     -moz-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -o-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -webkit-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
+    background: linear-gradient(0deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     color: var(--branco);
     text-shadow: 1.5px 1.5px 2px var(--preto);
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -webkit-border-radius: 100px;
     border-radius: 100px;
     cursor: pointer;
-
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 #matricula-aberta button:hover {
-    background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -moz-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -o-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -webkit-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
+    background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     color: var(--branco);
-
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 #Escola-infantil {
@@ -402,7 +408,7 @@ body {
 #diferenciais h2 {
     font-size: 40px;
     color: var(--azullogo);
-    padding: 20px 20px;
+    padding: 0px 50px;
     letter-spacing: 0.05em;
 }
 #diferenciais div {
@@ -411,13 +417,14 @@ body {
     max-width: var(--max-width);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 10px 10px 10px;
 }
 #diferenciais div ul {
-    padding-left: 20px;
-    width: 55%;
-    min-width: 500px;
+    padding: 0 20px;
+    width: 50%;
+    min-width: 450px;
 }
 #diferenciais div ul li {
     list-style: circle;
@@ -429,27 +436,34 @@ body {
     list-style: circle;
     font-size: 25px;
     padding: 10px 10px 10px 10px;
-    background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     -moz-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     -o-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
     -webkit-background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
+    background: linear-gradient(25deg, var(--amarelologo), transparent) var(--amareloqueimadologo);
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
     border-radius: 15px;
     cursor: pointer;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 #diferenciais div img {
     box-shadow: -3px 4px 5px var(--preto);
     width: 45%;
-    height: 100%;
+    min-width: 400px;
     padding: 5px;
     transform: rotate(5deg);
+    margin: 20px 10px 20px 20px;
 }
 
 #maps {
-    background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -moz-background: linear-gradient(to left, var(--amareloqueimadologo), var(--amarelologo));
     -o-background: linear-gradient(to left, var(--amareloqueimadologo), var(--amarelologo));
     -webkit-background: linear-gradient(to left, var(--amareloqueimadologo), var(--amarelologo));
+    background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     width: 100%;
     min-width: var(--min-width);
     max-width: var(--max-width);
@@ -473,12 +487,15 @@ body {
     padding: 0 80px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -moz-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -o-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     -webkit-background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
+    background: linear-gradient(to bottom, var(--amarelologo), var(--amareloqueimadologo));
     color: var(--branco);
     text-shadow: 1.5px 1.5px 2px var(--preto);
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -webkit-border-radius: 100px;
     border-radius: 100px;
     cursor: pointer;
     margin-top: 35px;
@@ -488,10 +505,10 @@ body {
     transition: all 0.5s;
 }
 #maps button:hover {
-    background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -moz-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -o-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     -webkit-background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar); 
+    background: linear-gradient(25deg, var(--azullogo), transparent) var(--azulnavbar);
     color: var(--branco);
 }
 /* ///// FIM DA ESTILIZAÇÃO DO MAIN ///// */
